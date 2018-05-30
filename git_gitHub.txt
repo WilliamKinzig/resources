@@ -1,0 +1,23 @@
+git config --global user.name "William Kinzig"
+
+git config --global user.email wippawill2@gmail.com
+
+
+git about
+
+git ls
+
+git init
+
+git remote add wk https://github.com/WilliamKinzig/________.git
+
+
+git add .
+
+git commit -m “ “
+
+git log
+
+git status
+
+git push wk master
