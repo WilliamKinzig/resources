@@ -20,4 +20,40 @@ git log
 
 git status
 
-git push wk master
+git push wk master //$ git push [remote nickname] gh-pages
+
+$ git branch gh-pages  // check git branching episodes
+$ git checkout gh-pages
+
+git branch  //* master
+git branch blue_theme  // creates new branch
+git checkout blue_theme
+git log
+
+
+
+$ git checkout master
+Switched to branch 'master'
+
+$ git log
+
+$ git branch
+
+  blue_theme
+* master
+  red_theme
+
+$ git merge red_theme
+
+$ git log
+
+
+$ git branch -D red_theme
+Deleted branch red_theme (was d5bae64).
+
+$ git branch
+  blue_theme
+* master
+
+$ git branch -D blue_theme
+Deleted branch blue_theme (was 268363a).
