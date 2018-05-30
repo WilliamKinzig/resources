@@ -16,3 +16,12 @@ ul {
   font-size: 20px;
   line-height: 30px;
 }
+
+.important {
+  color: red;
+  font-weight: bold;
+}
+
+p.important {
+  font-size: 24px;
+}
